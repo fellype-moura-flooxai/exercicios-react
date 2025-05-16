@@ -5,6 +5,5 @@ import MouraFamily from './mouraFamily'
 ReactDOM.render(
     <div>
         <MouraFamily />
-        
     </div>
     , document.getElementById('app'))

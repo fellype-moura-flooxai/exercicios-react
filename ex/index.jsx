@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MouraFamily from './mouraFamily'
+
+import Family from './family'
+import Member from './member'
 
 ReactDOM.render(
-    <div>
-        <MouraFamily />
-        
-    </div>
-    , document.getElementById('app'))
+    <Family lastName='Moura'>
+        <Member name='Fellype' />
+        <Member name='Rafael' />
+        <Member name='Julia' />
+    </Family>
+, document.getElementById('app'))
